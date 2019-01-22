@@ -2,9 +2,8 @@
 FROM nginx:alpine
 
 # copy files required for the app to run
-COPY homepage.html /usr/app/nginx/html
-COPY login.html /usr/app/nginx/html
-COPY person.html /usr/app/nginx/html
-COPY student.html /usr/app/nginx/html
-COPY student.html /usr/app/nginx/html
-COPY style/labone.css /usr/app/nginx/css
+COPY homepage.html /usr/share/nginx/html/homepage.html
+COPY login.html /usr/share/nginx/html/login.html
+COPY person.html /usr/share/nginx/html/person.html
+COPY student.html /usr/share/nginx/html/student.html
+COPY style/labone.css /usr/share/nginx/css
