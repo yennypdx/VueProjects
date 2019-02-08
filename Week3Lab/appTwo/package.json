@@ -1,0 +1,14 @@
+{
+  "name": "apptwo",
+  "version": "1.0.0",
+  "description": "appTwo package",
+  "main": "gulpfile.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "yp",
+  "license": "ISC",
+  "devDependencies": {
+    "gulp": "^4.0.0"
+  }
+}
