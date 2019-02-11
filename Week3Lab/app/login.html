@@ -19,14 +19,7 @@
 </head>
 
 <body>
-
     <h1 class="section-heading">Login</h1>
-    <!--removeIf(production)-->
-    <script src='js/login.js'></script>
-    <!--endRemoveIf(production)-->
-
-    <!-- inject:js -->
-    <!-- endinject -->
 
     <form action="auth.html">
         Email:<br>
@@ -36,12 +29,18 @@
         <input type="submit" value="Submit">
     </form>
 
+    <!--removeIf(production)-->
+    <script src='js/login.js'></script>
+    <!--endRemoveIf(production)-->
+
+    <!-- inject:js -->
+    <!-- endinject -->
+
     <script>
         $(document).ready(function() {
             initializeLogin();
         });
     </script>
-
 </body>
 
 </html>

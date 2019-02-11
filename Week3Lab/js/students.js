@@ -21,4 +21,4 @@ function displayStudents(students) {
     }
 }
 
-var testStudents = '{"students": [{"id": "95123654","email": "roger.smith@oit.edu"},{"id": "95131658","email": "mark.hamilton@oit.edu},{"id": "95178549","email": "brandon.cartwright@oit.edu},{"id": "95145625","email": "glen.sullivan@oit.edu},{"id": "95133652","email": "cat.peterson@oit.edu}]}'
+var testStudents = '{"students": [{"id": 95123654,"email": "roger.smith@oit.edu"},{"id": 95131658,"email": "mark.hamilton@oit.edu"},{"id": 95178549,"email": "brandon.cartwright@oit.edu"},{"id": 95145625,"email": "glen.sullivan@oit.edu"},{"id": 95133652,"email": "cat.peterson@oit.edu"}]}'
