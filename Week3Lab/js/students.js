@@ -15,9 +15,9 @@ function displayStudents(students) {
 
         var studId = students[i].id;
         var eMail = students[i].email;
-        var markup = "<tr><td>" + studId + "</td><td>$" + eMail + "</td><td>";
+        var outdata = "<tr><td>" + studId + "</td><td>" + eMail + "</td></tr>";
 
-        $("table tbody").append(markup);
+        $("table tbody").append(outdata);
     }
 }
 
