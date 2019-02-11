@@ -45,7 +45,7 @@ function css() {
 }
 
 function images() {
-    return src('app/image/*.jpg')
+    return src('app/images/*.png')
         .pipe(dest('build/images'))
 }
 

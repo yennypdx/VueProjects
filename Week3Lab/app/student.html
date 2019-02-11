@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Studentpage</title>
+    <!--removeIf(production)-->
+    <link rel="stylesheet" type="text/css" href="style\labone.css">
+    <script src="../node_modules/jquery/dist/jquery.js"></script>
+    <!--endRemoveIf(production)-->
+
+    <!-- inject:css -->
+    <!-- endinject -->
+
+    <img id="logo_oit" src="images/oit.png" style="width:100px"><br>
+    <a href="index.html">Home</a>
+    <a href="login.html">Login</a>
+    <a href="person.html">Person</a>
+    <a href="student.html">Student</a>
+</head>
+
+<body>
+    <h1 class="section-heading">Student Information</h1>
+    <h2 class="section">Student List</h2>
+
+    <!-- inject:js -->
+    <!-- endinject -->
+
+    <!--removeIf(production)-->
+    <script src='js/students.js'></script>
+    <!--endRemoveIf(production)-->
+
+    <table class="table">
+        <script type="text/javascript">
+            $(document).ready(function() {
+                initializeStudents();
+            });
+        </script>
+    </table>
+</body>
+
+</html>
