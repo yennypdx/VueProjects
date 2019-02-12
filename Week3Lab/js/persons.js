@@ -22,4 +22,4 @@ function displayPersons(persons) {
     }
 }
 
-var testStudents = '{"persons": [{"fname": "Roger","midInt": "A","lname": "Smith"}, {"fname": "Mark","midInt": "J","lname": "Hamilton"}, {"fname": "Brandon","midInt": "H","lname": "Cartwright"}, {"fname": "Glen","midInt": "M","lname": "Sullivan"}, {"fname": "Catherine","midInt": "S","lname": "Peterson"}]}'
+var testPersons = '{"persons": [{"fname": "Roger","midInt": "A","lname": "Smith"}, {"fname": "Mark","midInt": "J","lname": "Hamilton"}, {"fname": "Brandon","midInt": "H","lname": "Cartwright"}, {"fname": "Glen","midInt": "M","lname": "Sullivan"}, {"fname": "Catherine","midInt": "S","lname": "Peterson"}]}'

@@ -21,7 +21,7 @@ function html() {
 }
 
 function js() {
-    return src('app/js/*.js', { sourcemaps: true })
+    return src('js/*.js', { sourcemaps: true })
         .pipe(sourcemaps.init())
         .pipe(concat('app.min.js'))
         .pipe(uglify())
