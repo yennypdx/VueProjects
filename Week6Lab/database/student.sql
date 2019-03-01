@@ -1,0 +1,8 @@
+CREATE TABLE Student
+(
+    StudentTabId SERIAL PRIMARY KEY,
+    StudentIDNum INTEGER NOT NULL,
+    Email VARCHAR(64) NOT NULL,
+    PersonTabId INTEGER NOT NULL,
+    FOREIGN KEY (PersonTabId) REFERENCES Person (PersonTabId) ON DELETE CASCADE
+);
