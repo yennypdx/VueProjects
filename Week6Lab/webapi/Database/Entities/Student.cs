@@ -4,16 +4,18 @@ using System.ComponentModel.DataAnnotations;
 [Table("student")]
 public class Student
 {
-    [Column("studentTabId")]
+    [Column("studenttabid")]
     [Key]
     public int StudentTabId { get; set; }
 
-    [Column("studentIDNum")]
+    [Column("studentidnum")]
     public int StudentIDNum { get; set; }
 
     [Column("email")]
     public string Email { get; set; }
 
-    public Person PersonTabId { get; set; }
+    [Column("persontabid")]
+    public int PersonTabId { get; set; }
+    public Person Person { get; set; }
 }
 

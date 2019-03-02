@@ -12,7 +12,7 @@
                 </tr>
             </thead>
             <tbody>
-                <tr v-for="person in persons" :key="person.id">
+                <tr v-for="person in persons" :key="person.persontabid">
                     <td>{{ person.firstName }}</td>
                     <td>{{ person.midInitial }}</td>
                     <td>{{ person.lastName }}</td>

@@ -22,7 +22,8 @@ namespace webapi.Controllers
         [HttpGet]
         public ActionResult<List<Student>> GetAllStudents()
         {
-            return Ok(_dbContext.Student.Include(s => s.PersonTabId).ToList());
+            //return Ok(_dbContext.Student.Include(s => s.Person).ToList());
+            return Ok(_dbContext.Student.ToList());
         }   
     }
 }
