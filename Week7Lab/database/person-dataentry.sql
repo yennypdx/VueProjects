@@ -1,0 +1,12 @@
+INSERT INTO Person (firstName, midInitial, lastName) VALUES ('SangYeon', 'A', 'Lee');
+INSERT INTO Person (firstName, midInitial, lastName) VALUES ('JoonYoung', 'B', 'Bae');
+INSERT INTO Person (firstName, midInitial, lastName) VALUES ('YoungHoon', 'C', 'Kim');
+INSERT INTO Person (firstName, midInitial, lastName) VALUES ('JaeHyun', 'D', 'Lee');
+INSERT INTO Person (firstName, midInitial, lastName) VALUES ('JuYeon', 'E', 'Lee');
+INSERT INTO Person (firstName, midInitial, lastName) VALUES ('HyungSeo', 'F', 'Moon');
+INSERT INTO Person (firstName, midInitial, lastName) VALUES ('ChanHee', 'G', 'Choi');
+INSERT INTO Person (firstName, midInitial, lastName) VALUES ('ChangMin', 'H', 'Ji');
+INSERT INTO Person (firstName, midInitial, lastName) VALUES ('HakNyeon', 'I', 'Ju');
+INSERT INTO Person (firstName, midInitial, lastName) VALUES ('HyunJoon', 'J', 'Heo');
+INSERT INTO Person (firstName, midInitial, lastName) VALUES ('SunWoo', 'K', 'Kim');
+INSERT INTO Person (firstName, midInitial, lastName) VALUES ('YoungJae', 'L', 'Son');

@@ -1,0 +1,12 @@
+INSERT INTO Student (StudentIDNum, Email, PersonTabId) VALUES (951333, 'sanyeon.lee@theboyz.biz', 1);
+INSERT INTO Student (StudentIDNum, Email, PersonTabId) VALUES (951345, 'joonyoung.bae@theboyz.biz', 2);
+INSERT INTO Student (StudentIDNum, Email, PersonTabId) VALUES (951346, 'younghoon.kim@theboyz.biz', 3);
+INSERT INTO Student (StudentIDNum, Email, PersonTabId) VALUES (951347, 'jaehyun.lee@theboyz.biz', 4);
+INSERT INTO Student (StudentIDNum, Email, PersonTabId) VALUES (951348, 'juyeon.lee@theboyz.biz', 5);
+INSERT INTO Student (StudentIDNum, Email, PersonTabId) VALUES (951349, 'hyungseo.moon@theboyz.biz', 6);
+INSERT INTO Student (StudentIDNum, Email, PersonTabId) VALUES (951350, 'chanhee.choi@theboyz.biz', 7);
+INSERT INTO Student (StudentIDNum, Email, PersonTabId) VALUES (951351, 'changmin.ji@theboyz.biz', 8);
+INSERT INTO Student (StudentIDNum, Email, PersonTabId) VALUES (951352, 'haknyeon.ju@theboyz.biz', 9);
+INSERT INTO Student (StudentIDNum, Email, PersonTabId) VALUES (951353, 'hyunjoon.heo@theboyz.biz', 10);
+INSERT INTO Student (StudentIDNum, Email, PersonTabId) VALUES (951354, 'sunwoo.kim@theboyz.biz', 11);
+INSERT INTO Student (StudentIDNum, Email, PersonTabId) VALUES (951355, 'youngjae.son@theboyz.biz', 12);
