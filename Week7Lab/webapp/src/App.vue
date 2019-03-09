@@ -2,7 +2,7 @@
 
 <template>
   <div align='center'>
-    <div><img src="./assets/oit.png" style="width:300px"></div>
+    <div><img src="./assets/oit.png" style="width:250px"></div>
 
     <nav class="navbar navbar-default">
       <div class="container-fluid">
